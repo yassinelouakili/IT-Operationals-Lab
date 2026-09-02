@@ -40,7 +40,9 @@ it-operations-lab/
 └── docs    
     ├── arquitectura.md 
     ├── direccionamiento.md 
-    └── inventario.md
+    ├── inventario.md
+    └── network
+        └── pfsense.md
 ```
 
 ---
