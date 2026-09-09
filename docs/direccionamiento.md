@@ -31,7 +31,7 @@
 | Nombre | LAN |
 | Rango | 192.168.100.50 - 192.168.100.250 |
 | Gateway | 192.168.1.1 |
-| DNS | 192.168.10.10 |
+| DNS | 192.168.20.10 |
 | Dominio | [opyee.net] |
 
 El DHCP asigna automáticamente a los clientes su dirección IP, gateway y servidor DNS.
@@ -42,7 +42,7 @@ El DHCP asigna automáticamente a los clientes su dirección IP, gateway y servi
 ## 5. DNS
 
 El servidor DNS principal es `DC01`.
-Servidor DNS principal: `192.168.10.10`.
+Servidor DNS principal: `192.168.20.10`.
 Dominio interno: `opyee.net`.
 
 El DNS permite que los equipos del laboratorio puedan localizar los servidores y servicios utilizando nombres en lugar de tener que utilizar directamente sus direcciones IP.

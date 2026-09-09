@@ -131,14 +131,11 @@ El acceso de los clientes a los servicios internos se realiza dentro de la red d
 ## Limitaciones
 Las siguientes características no forman parte de esta versión:
 - DMZ
-- Alta disponibilidad.
-- Servidores redundantes.
-- Sistema de copias de seguridad dedicado.
+- Sistema de copias de seguridad.
 - SIEM.
--   Automatización avanzada.
 
 Estas características podrán evaluarse en futuras versiones.
 
 ## Estado
 **Estado**: `[En progreso]`
-**Última actualización**: `01/09/2026`
+**Última actualización**: `09/09/2026`

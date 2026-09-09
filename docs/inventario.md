@@ -4,10 +4,10 @@
 
 | Hostname | Sistema operativo | IP | Función | Estado |
 |---|---|---|---|---|
-| pfSense | pfSense 2.9.0 | LAN: 192.168.1.1/16 | Firewall, Segmentación de red | [En creación] |
-| DC01 | Windows Server 2025 | 192.168.20.10/16 | Active Directory, DHCP, DNS, WSUS | [En creación] |
+| pfSense | pfSense 2.9.0 | LAN: 192.168.1.1/16 | Firewall, Segmentación de red | [Activo] |
+| DC01 | Windows Server 2025 | 192.168.20.10/16 | Active Directory, DHCP, DNS, WSUS | [Activo] |
 | MON-ZBX | Ubuntu Server 26.04 | 192.168.20.20/16 | Monitorización de sistemas | [En creación] |
-| SUP-UBUDESK | Ubuntu Desktop 26.04 | 192.168.40.10/16 | Simulación de soporte técnico | [En creación] |
+| SUP-UBUDESK | Ubuntu Desktop 26.04 | 192.168.40.10/16 | Simulación de soporte técnico | [Activo] |
 | CLI-WIN01 | Windows 11 | 192.168.100.50-250/16 | Simulación de cliente | [En creación] |
 | CLI-WIN02 | Windows 11 | 192.168.100.50-250/16 | Simulación de cliente | [En creación] |
 
@@ -59,7 +59,7 @@
 ---
 
 ## Última revisión
-[01/09/2026]
+[09/09/2026]
 
 
 

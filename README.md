@@ -1,6 +1,6 @@
-# IT Operations Lab
+# IT Operationals Lab
 
-Laboratorio de infraestructura IT montado en VirtualBox para practicar competencias en: Active Directory, redes, monitorización, automatización y gestión de incidencias ITIL.
+Laboratorio de infraestructura IT virtualizada orientado a reproducir un entorno corporativo. Administración de Active Directory, configuración de redes, monitorización con Zabbix, automatización de procesos y gestión de incidencias siguiendo buenas prácticas ITIL
 
 ---
 
@@ -41,8 +41,13 @@ it-operations-lab/
     ├── arquitectura.md 
     ├── direccionamiento.md 
     ├── inventario.md
-    └── network
-        └── pfsense.md
+    ├── network
+    |   └── pfsense.md
+    └── windows
+        ├── active-directory.md 
+        ├── dhcp.md 
+        ├── dns.md 
+        └── gpo.md
 ```
 
 ---
