@@ -84,6 +84,7 @@ Pruebas realizadas con:
 - Inicio de sesión
 - Pertenencia a grupos
 - Aplicación de permisos
+
 ![Estructura de OU y grupos](../../img/OU_structure.png)
 
 

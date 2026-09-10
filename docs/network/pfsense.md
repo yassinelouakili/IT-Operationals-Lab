@@ -19,6 +19,7 @@ pfSense actúa como:
 | LAN | 192.168.1.1/16 | Red interna |
 
 - Interfaces
+
 ![Interfaces](../../img/Interfaces_pfsense.png)
 
 
@@ -30,6 +31,7 @@ pfSense actúa como:
 **Función:** Internet
 
 ![Interface WAN](../../img/WAN_interface_pfsense.png)
+
 --- 
 
 ## Configuración LAN
@@ -55,8 +57,11 @@ pfSense actúa como:
 | FW-005 | LAN | LAN net | * | * | Firewall | * | Permitir | Evitar el bloqueo del acceso de administración al firewall desde la LAN |
 
 - Reglas Firewall WAN
+
 ![WAN Firewall rules](../../img/Wan_rules_firewall.png)
+
 - Reglas Firewall LAN
+
 ![LAN Firewall rules](../../img/Lan_rules_firewall.png)
 
 
@@ -95,6 +100,7 @@ La resolución DNS funciona correctamente desde los equipos de la LAN.
 
 
 - Resultado de la prueba 1 y 2 desde SUP-UBUDESK
+
 ![Pruebas de SUP-UBUDESK](../../img/sup-ubudesk_pruebas_ping.png)
 
 
@@ -106,4 +112,4 @@ La resolución DNS funciona correctamente desde los equipos de la LAN.
 
 **Estado actual:** [Activo]
 
-**Última actualización:** [02/09/2026]
+**Última actualización:** [10/09/2026]

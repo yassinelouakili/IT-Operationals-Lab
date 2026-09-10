@@ -8,8 +8,8 @@
 | DC01 | Windows Server 2025 | 192.168.20.10/16 | Active Directory, DHCP, DNS, WSUS | [Activo] |
 | MON-ZBX | Ubuntu Server 26.04 | 192.168.20.20/16 | Monitorización de sistemas | [En creación] |
 | SUP-UBUDESK | Ubuntu Desktop 26.04 | 192.168.40.10/16 | Simulación de soporte técnico | [Activo] |
-| CLI-WIN01 | Windows 11 | 192.168.100.50-250/16 | Simulación de cliente | [En creación] |
-| CLI-WIN02 | Windows 11 | 192.168.100.50-250/16 | Simulación de cliente | [En creación] |
+| CLI-WIN01 | Windows 11 | 192.168.100.50-250/16 | Simulación de cliente | [Activo] |
+| CLI-WIN02 | Windows 11 | 192.168.100.50-250/16 | Simulación de cliente | [Activo] |
 
 ---
 
