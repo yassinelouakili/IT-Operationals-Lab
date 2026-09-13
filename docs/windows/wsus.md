@@ -1,6 +1,6 @@
 # WSUS
 
-## 1Objetivo
+## Objetivo
 
 WSUS se utiliza en el laboratorio para gestionar y probar la distribución centralizada de actualizaciones.
 
@@ -10,8 +10,8 @@ WSUS se utiliza en el laboratorio para gestionar y probar la distribución centr
 
 | Propiedad | Valor |
 |---|---|
-| Hostname | [HOST] |
-| IP | [IP] |
+| Hostname | [DC01] |
+| IP | [192.168.20.10] |
 
 ---
 
@@ -19,8 +19,10 @@ WSUS se utiliza en el laboratorio para gestionar y probar la distribución centr
 
 | Grupo | Equipos |
 |---|---|
-| PILOT | [EQUIPOS] |
-| PRODUCTION | [EQUIPOS] |
+| PILOT | [CLI-WIN01] - equipos de prueba |
+| PRODUCTION | [CLI-WIN02] - equipos de cliente real |
+
+El grupo `PILOT` recibe primero las actualizaciones para comprobar que no aparecen problemas. Una vez validado, las actualizaciones se aprueban para el grupo `PRODUCTION`
 
 ---
 
@@ -42,11 +44,9 @@ PRODUCTION
 
 ## Configuración mediante GPO
 
-**GPO utilizada:**  
-[NOMBRE]
+**GPO utilizada:** [GPO-003-Windows-Update]
 
-**OU afectada:**  
-[OU]
+**OU afectada:** [Equipos]
 
 ---
 
@@ -58,9 +58,3 @@ PRODUCTION
     
 -  Se comprueba el estado de actualizaciones.
     
-
----
-
-## Resultado
-
-[Descripción final.]
