@@ -32,7 +32,7 @@ pfSense actúa como:
 
 ![Interface WAN](../../img/WAN_interface_pfsense.png)
 
---- 
+-   -- 
 
 ## Configuración LAN
 
